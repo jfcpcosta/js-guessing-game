@@ -1,0 +1,43 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Guessing Game</title>
+
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Guessing Game</h1>
+
+        <h2 id="timeContent">60</h2>
+        <label>
+            <input id="userInput" type="number">
+            <button id="addNumberButton">Play</button>
+        </label>
+
+        <div class="help">
+            <div class="help-content">
+                <img id="helpImage" width="200" src="assets/question.png">
+            </div>
+            <div class="list-content">
+                <ul id="gameList">
+
+                </ul>
+            </div>
+        </div>
+
+        <div id="statusContent">
+
+        </div>
+
+        <button id="newGameButton">New Game</button>
+    </div>
+
+    <script src="js/game.js"></script>
+</body>
+
+</html>
